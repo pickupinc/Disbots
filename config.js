@@ -3,7 +3,7 @@ module.exports = {
     token: "",
     prefix: "!",
     owners: ["875768640320962650"],
-    mongourl: "",
+    mongourl: "mongodb+srv://dbl:dbl@cluster0.lt2km.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     servers: {
       token: "",
       prefix: "!"
