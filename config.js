@@ -2,18 +2,18 @@ module.exports = {
   bot: {
     token: "",
     prefix: "",
-    owners: ["",""],
+    owners: ["875768640320962650"],
     mongourl: "",
     servers: {
       token: "",
-      prefix: ""
+      prefix: "!"
     }
   },
 
   website: {
     callback: "",
-    secret: "",
-    clientID: "", // Bot client id.
+    secret: "r_DK-p8n_8JhigNG8_uxWr5hjuzLSHyP",
+    clientID: "918819837705347072", // Bot client id.
     tags: ["Moderation", "Fun", "Minecraft", "Economy", "Guard", "NSFW", "Anime", "Invite", "Music", "Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"],
     reporttags: ["Choose one...","NSFW content","API abuse","Malicious use of bot page","Copycat","Doesn't work","Other"],
     languages: [
@@ -131,8 +131,8 @@ module.exports = {
   },
 
   server: {
-    id: "", // DisBots.xyz Server ID
-    invite: "https://discord.gg/YhTU6Akzmy",
+    id: "918742094762356756", // DisBots.xyz Server ID
+    invite: "https://discord.gg/",
     dblinvite: "",
     roles: {
       yonetici: "", // Team roleid
@@ -144,16 +144,16 @@ module.exports = {
       partnerRole: "", // Partner Role id
       site_creator: "",// Site Creator Role id
       administrator: "", // Team Role id Again
-      moderator: "", // bot tester Role id
+      moderator: "918742094791737353", // bot tester Role id
       moderatorrole: "", // Server Moderator Role id
       profile: {
         sitecreator:"", // Site Creator Role id
-        booster: "",// Server booster Role ID
+        booster: "918749511608856606",// Server booster Role ID
         community: "",// Community Role id
-        sponsor: "", // Sponsor Role id
-        supporter: "", // Supporter Role id
+        sponsor: "918742094791737348", // Sponsor Role id
+        supporter: "918742094791737346", // Supporter Role id
         manager: "", // Community Manager Role Id
-        partnerRole: "" // Partner Role id
+        partnerRole: "918742094791737349" // Partner Role id
       },
       codeshare: {
         python: "PY",
@@ -167,7 +167,7 @@ module.exports = {
         twentyInvite: "20 INVITES"
       },
       botlist: {
-        ownerserver: "", // Server Owner Role ID
+        ownerserver: "918742094808510496", // Server Owner Role ID
         developer: "", // Bot Developer Role ID
         certified_developer: "",// Certified Bot Developer Role ID
         boosted_developer: "", // Boosted Bot Developer Role ID
@@ -180,13 +180,13 @@ module.exports = {
       }
     },
     channels: {
-      codelog: "", // Code Log
-      login: "",// Login Log
-      webstatus: "",// Website Status Log
-      uptimelog: "",// Uptime Log
-      botlog: "",// bot Log
+      codelog: "918751377424007169", // Code Log
+      login: "918751841146261554",// Login Log
+      webstatus: "918752007496540191",// Website Status Log
+      uptimelog: "918752153772892170",// Uptime Log
+      botlog: "918742096364601419",// bot Log
       reportlog: "",// bot report Log
-      votes: ""// Vote Log Log
+      votes: "918752199797002300"// Vote Log Log
     }
   }
 
