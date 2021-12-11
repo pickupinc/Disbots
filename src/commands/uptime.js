@@ -15,7 +15,7 @@ var bot = message.mentions.users.first()
     if(!bot)
     {
       const embed = new Discord.MessageEmbed()
-      .setDescription(`<:notcheck:853262343790526495> *You have given an invalid bot ID or mention.*\n<:check:853262343949254696> **Ex.** *d!uptime @bot or 123456789123456789*`)
+      .setDescription(`<:notcheck:853262343790526495> *You have given an invalid bot ID or mention.*\n<:check:853262343949254696> **Ex.** *!uptime @bot or 123456789123456789*`)
        .setColor("#7289da")
       return message.channel.send(embed)
     } 
