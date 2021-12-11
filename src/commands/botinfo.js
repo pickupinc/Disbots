@@ -18,7 +18,7 @@ module.exports.run = async (client,message,args) => {
    const embed = new Discord.MessageEmbed()
    .setThumbnail(b.avatar)
    .setAuthor(b.username+"#"+b.discrim, b.avatar)
-   .setDescription("**[Vote for the bot named "+b.username+"#"+b.discrim+" in Disbots.](https://disbots.xyz/bot/"+b.botID+"/vote)**")
+   .setDescription("**[Vote for the bot named "+b.username+"#"+b.discrim+" in Disbots.](https://mukudha.dev/bot/"+b.botID+"/vote)**")
    .addField("ID", b.botID, true)
    .addField("Username", b.username, true)
    .addField("Discriminator", b.discrim, true)
