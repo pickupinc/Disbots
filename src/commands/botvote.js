@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args) => {
   }
   if (!bot) {
         const embed = new Discord.MessageEmbed()
-      .setDescription(`<:notcheck:853262343790526495> *You have given an invalid bot ID or mention.*\n<:check:853262343949254696> **Ex.** *d!votebot @bot or 123456789123456789*`)
+      .setDescription(`<:notcheck:853262343790526495> *You have given an invalid bot ID or mention.*\n<:check:853262343949254696> **Ex.** *!votebot @bot or 123456789123456789*`)
        .setColor("#7289da")
       return message.channel.send(embed)
   }
