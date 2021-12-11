@@ -13,7 +13,7 @@ module.exports.run = async (client,message,args) => {
    await sleep(3000)
    const embed = new Discord.MessageEmbed()
    .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
-   .setDescription(`<:blurple_search:853259976834547723> *Searched Your account*\n\n*You Own* \`\`${bots.length}\`\` *Discord Bot(s) in Disbots*`)
+   .setDescription(`<:blurple_search:853259976834547723> *Searched Your account*\n\n*You Own* \`\`${bots.length}\`\` *Discord Bot(s) in MUKHDHA*`)
    .setColor("#7289da")
    .addField("Bots", `${!bots ? "" : bots.map(a => "<@"+a.botID+">").join("\n")}`, true)
    esitthis.edit(embed)
