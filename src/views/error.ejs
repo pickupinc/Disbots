@@ -1,9 +1,9 @@
 <%- include('parts/head', {bot, user,path}) %>
 <%
-var url = new URL(`https://disbots.xyz/error?code=${req.query.code}&message=${req.query.message}`);
+var url = new URL(`https://mukhdha.dev/error?code=${req.query.code}&message=${req.query.message}`);
 var params = new URLSearchParams(url.search);
 %>
-<title>Error <%= params.get('code')%> - DisBots</title>
+<title>Error <%= params.get('code')%> - Mukhdha</title>
 </head>
 <style>
 .four_zero_four_bg{
