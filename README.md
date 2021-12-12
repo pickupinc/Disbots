@@ -17,7 +17,7 @@
 
 > # Developers
 <a href="https://github.com/iClaudette">👤 Claudette</a><br>
-<a href="https://github.com/tunarjs">👤 Tunar</a><br>
+<a href="https://github.com/tunarjs">👤 Tuna</a><br>
 <br><br>
 
 > # Terms of use from Disbots.xyz
