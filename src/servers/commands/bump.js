@@ -105,7 +105,7 @@ exports.help = {
 function msgError(msg, { channel }) {
     channel.send(new Discord.MessageEmbed()
     .setAuthor(global.clientSL.user.username,global.clientSL.user.avatarURL())
-    .setFooter('disbots.xyz/servers')
+    .setFooter('mukhdha.dev/servers')
     .setDescription(msg)
     .setColor("RED")
     )
