@@ -44,7 +44,7 @@ module.exports.run = async (client, message, args) => {
     let web = new MessageButton()
       .setLabel("Visit bot page")
       .setStyle("url")
-      .setURL("https://disbots.xyz/bot/"+botdata.botID)
+      .setURL("https://mukhdha.dev/bot/"+botdata.botID)
     const vote = new Discord.MessageEmbed()
     .setTitle("Voted")
     .setColor("GREEN")
@@ -61,7 +61,7 @@ module.exports.run = async (client, message, args) => {
   let web = new MessageButton()
     .setLabel("Visit bot page")
     .setStyle("url")
-    .setURL("https://disbots.xyz/bot/"+botdata.botID)
+    .setURL("https://mukudha.dev/bot/"+botdata.botID)
   const vote = new Discord.MessageEmbed()
 	.setTitle("Voted")
 	.setColor("GREEN")
@@ -74,7 +74,7 @@ module.exports.run = async (client, message, args) => {
     const webhook = require("webhook-discord");
     const Hook = new webhook.Webhook(botdata.dcwebhook);
     const msg = new webhook.MessageBuilder()
-      .setName("Disbots Bot List Discord Webhooks")
+      .setName("Mukhdha Bot Discord Webhooks")
       .setAvatar("https://cdn.discordapp.com/icons/852825880271257611/bf26f2b197897f38db173afb9b73a22e.webp?size=256")
       .setTitle(`${votedbot.username} Has just been Voted!!`)
       .setDescription(`Voter: ${message.author.username} Bot: ${votedbot.username} Total Votes: ${botdata.votes + 1}`)
