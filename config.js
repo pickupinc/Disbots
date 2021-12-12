@@ -135,24 +135,24 @@ module.exports = {
     invite: "https://discord.gg/",
     dblinvite: "",
     roles: {
-      yonetici: "918742094808510496", // Team roleid
-      manager: "",// Community Manager Role Id
+      yonetici: "919184312472059915", // Team roleid
+      manager: "918742094791737353",// Community Manager Role Id
       booster: "918749511608856606", // Server booster Role ID
-      sponsor: "918742094791737346", // Sponsor Role id
-      community: "", // Community Role id
+      sponsor: "918742094791737348", // Sponsor Role id
+      community: "918742094791737352", // Community Role id
       supporter: "918742094791737346",// Supporter Role id
-      partnerRole: "", // Partner Role id
-      site_creator: "",// Site Creator Role id
-      administrator: "", // Team Role id Again
+      partnerRole: "918742094791737349", // Partner Role id
+      site_creator: "919188947333181510",// Site Creator Role id
+      administrator: "919184312472059915", // Team Role id Again
       moderator: "918742094791737353", // bot tester Role id
-      moderatorrole: "", // Server Moderator Role id
+      moderatorrole: "918742094791737350", // Server Moderator Role id
       profile: {
-        sitecreator:"", // Site Creator Role id
+        sitecreator:"919188947333181510", // Site Creator Role id
         booster: "918749511608856606",// Server booster Role ID
-        community: "",// Community Role id
+        community: "918742094791737352",// Community Role id
         sponsor: "918742094791737348", // Sponsor Role id
         supporter: "918742094791737346", // Supporter Role id
-        manager: "", // Community Manager Role Id
+        manager: "918742094791737353", // Community Manager Role Id
         partnerRole: "918742094791737349" // Partner Role id
       },
       codeshare: {
@@ -168,15 +168,15 @@ module.exports = {
       },
       botlist: {
         ownerserver: "918742094808510496", // Server Owner Role ID
-        developer: "875768640320962650", // Bot Developer Role ID
-        certified_developer: "875768640320962650",// Certified Bot Developer Role ID
-        boosted_developer: "", // Boosted Bot Developer Role ID
-        promoted_developer: "",// Promoted Bot Developer Role ID
-        premium_developer: "",// Premium Server Owner Role ID
+        developer: "919187430039498793", // Bot Developer Role ID
+        certified_developer: "919187547526164481",// Certified Bot Developer Role ID
+        boosted_developer: "919187539955421215", // Boosted Bot Developer Role ID
+        promoted_developer: "919187850564632607",// Promoted Bot Developer Role ID
+        premium_developer: "919187979652714536",// Premium Server Owner Role ID
         bot: "914439440208904212",// Approved Bot Role ID
-        boosted_bot: "", // Boosted Bot Role ID
-        promoted_bot: "",// Promoted Bot Role ID
-        certified_bot: "914439440208904212"// Certified Bot Role ID
+        boosted_bot: "919186541698515005", // Boosted Bot Role ID
+        promoted_bot: "919186709198012457",// Promoted Bot Role ID
+        certified_bot: "919186853645664308"// Certified Bot Role ID
       }
     },
     channels: {
@@ -185,7 +185,7 @@ module.exports = {
       webstatus: "918752007496540191",// Website Status Log
       uptimelog: "918752153772892170",// Uptime Log
       botlog: "918742096364601419",// bot Log
-      reportlog: "",// bot report Log
+      reportlog: "919189336191279126",// bot report Log
       votes: "918752199797002300"// Vote Log Log
     }
   }
