@@ -263,7 +263,7 @@
                 <div class="row">
                     <div class="rating-cards col-md-12">
                         <div class="ml-4 media p-2" style="border-radius: 5px;">
-                          <img class="mr-3 rounded-circle" alt="disbots-xyz | Rating System" src="https://cdn.discordapp.com/avatars/<%= req.user.id %>/<%=req.user.avatar%>" />
+                          <img class="mr-3 rounded-circle" alt="Mukhdha | Rating System" src="https://cdn.discordapp.com/avatars/<%= req.user.id %>/<%=req.user.avatar%>" />
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-8 d-flex">
@@ -297,7 +297,7 @@
                                              title: 'Oops...',
                                              allowOutsideClick: false,
                                              text: "You forgot to write a review.",
-                                             footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                                             footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                                             })
                                       $("#myReview").html('<i class="fad fa-save"></i>&nbsp;Submit');
                                       $("#myReview").attr("disabled", false);
@@ -321,7 +321,7 @@
                                        title: 'Oops...',
                                        allowOutsideClick: false,
                                        text: "An unknown error has occurred.",
-                                       footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                                       footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                                       })
                                       $("#myReview").html('<i class="fad fa-save"></i>&nbsp;Submit');
                                       $("#myReview").attr("disabled", false);
@@ -386,7 +386,7 @@
 
                     <div class="rating-cards col-md-12">
                         <div class="ml-4 media p-2">
-                          <img class="mr-3 rounded-circle" alt="disbots-xyz | Rating System" onError="imgError(this)" src="<%= userRate ? userRate.avatarURL() : '../../img/undefined_logo.png' %>" />
+                          <img class="mr-3 rounded-circle" alt="Mukhdha | Rating System" onError="imgError(this)" src="<%= userRate ? userRate.avatarURL() : '../../img/undefined_logo.png' %>" />
                             <div class="media-body">
                                 <div class="row">
                                     <div class="col-8 d-flex">
@@ -571,7 +571,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "You forgot to write a reply message.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#myReplyButton" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#myReplyButton" + userID).attr("disabled", false);
@@ -583,7 +583,7 @@
                     title: 'Successful...',
                     allowOutsideClick: false,
                     text: "Your reply has been successfully added.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         return document.getElementById('myReplyForm' + userID).submit();
@@ -595,7 +595,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "An unknown error has occurred.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#myReplyButton" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#myReplyButton" + userID).attr("disabled", false);
@@ -613,7 +613,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "You forgot to write a new message.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#myEditButton" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#myEditButton" + userID).attr("disabled", false);
@@ -625,7 +625,7 @@
                     title: 'Successful...',
                     allowOutsideClick: false,
                     text: "Your reply has been successfully added.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         return document.getElementById('myEditForm' + userID).submit();
@@ -637,7 +637,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "An unknown error has occurred.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#myEditButton" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#myEditButton" + userID).attr("disabled", false);
@@ -655,7 +655,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "You forgot to write a new message.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#clickOnEditReply" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#clickOnEditReply" + userID).attr("disabled", false);
@@ -667,7 +667,7 @@
                     title: 'Successful...',
                     allowOutsideClick: false,
                     text: "Your reply has been successfully added.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 }).then((result) => {
                     if (result.isConfirmed) {
                         return document.getElementById('myReplyEditForm' + userID).submit();
@@ -679,7 +679,7 @@
                     title: 'Oops...',
                     allowOutsideClick: false,
                     text: "An unknown error has occurred.",
-                    footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+                    footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
                 })
                 $("#clickOnEditReply" + userID).html('<i class="fad fa-save"></i>&nbsp;Save');
                 $("#clickOnEditReply" + userID).attr("disabled", false);
@@ -709,7 +709,7 @@
           title: 'Successful...',
           allowOutsideClick: false,
           text: "Your reply has been successfully deleted.",
-          footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+          footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
       })
       $.ajax({
         type: "POST",
@@ -751,7 +751,7 @@
           title: 'Successful...',
           allowOutsideClick: false,
           text: "Your review has been successfully deleted.",
-          footer: 'Copyright 2021 &copy Disbots.xyz - All right reserved.'
+          footer: 'Copyright 2022 &copy Mukhdha.dev - All right reserved.'
       })
       $.ajax({
         type: "POST",
@@ -812,15 +812,17 @@ if (page != 1) {
   <br><br><br><br><br><br><br>
         </div>
   <center>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Ad 2 -->
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9576364007591739"
+     crossorigin="anonymous"></script>
+<!-- MUKHDHA -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:60px"
-     data-ad-client="ca-pub-2081004784180217"
-     data-ad-slot="4545676409"></ins>
+     style="display:block"
+     data-ad-client="ca-pub-9576364007591739"
+     data-ad-slot="5908908044"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-</center>
 
 <%- include('../../parts/foot') %>
