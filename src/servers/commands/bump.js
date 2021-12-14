@@ -42,7 +42,7 @@ exports.run = async (client, message, args) => {
     let web = new MessageButton()
     .setLabel("Visit server page")
     .setStyle("url")
-    .setURL("https://disbots.xyz/server/"+message.guild.id)
+    .setURL("https://mukhdha.dev/server/"+message.guild.id)
 
     const incorrectButton = new Discord.MessageEmbed()
 	.setTitle("No way, the operation was canceled because you clicked the wrong code.")
