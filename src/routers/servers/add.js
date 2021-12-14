@@ -85,7 +85,7 @@ app.post("/add", global.checkAuth, async (req,res) => {
     let checkGuilds = await db.findOne({ id: guildID });
     let guilda = client.guilds.cache.get(global.config.server.id)
     guilda.members.cache.get(checkGuilds.ownerID).roles.add(global.config.server.roles.botlist.ownerserver);
-    client.channels.cache.get(global.config.server.channels.botlog).send(`<:add:853596640824655872> <@${checkGuilds.ownerID}> added **${guild.name}** \n https://disbots.xyz/server/${checkGuilds.id}/`)
+    client.channels.cache.get(global.config.server.channels.botlog).send(`<:add:853596640824655872> <@${checkGuilds.ownerID}> added **${guild.name}** \n https://Mukhdha.dev/server/${checkGuilds.id}/`)
     return res.send({ success: true, message: "Server succesfuly added." });
 })
 
