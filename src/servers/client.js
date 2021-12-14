@@ -48,7 +48,7 @@ serverClient.on('ready',async () => {
     console.log("[disbots.xyz/servers]: Bot successfully connected as "+serverClient.user.tag+".");
     let serversdata = require("../../src/database/models/servers/server.js");
     const servers = await serversdata.find();
-    serverClient.user.setPresence({ activity: { type: 'PLAYING', name: 'd! | '+ servers.length+ ' servers' }, status: "dnd" });
+    serverClient.user.setPresence({ activity: { type: 'STREAMING', name: '! | '+ servers.length+ ' servers' }, status: "dnd" });
 });
 
 serverClient.makeid = length => {
