@@ -18,7 +18,7 @@ module.exports.run = async (client, message, args) => {
     .setAuthor(users.tag, users.avatarURL({ dynamic: true }))
     .setDescription(`\n[Click to View your Profile!](https://mukhdha.dev/user/${users.id})\n\n**Analytics**\n You own **${bots.length || "0"} Bots** and **${servers.length} Servers**`)
     .setColor("#7289da")
-    .addField("Bots [" + bots.length + "]", `${!bots ? "" : bots.map(a => "<@" + a.botID + ">  **[**[View " + a.username + "](https://disbots.xyz/bot/" + a.botID + ")**]**").join("\n")}\n\n **Servers [${servers.length}]** \n${!servers ? "" : servers.map(b => b.name + " **[**[View " + b.name + "](https://disbots.xyz/server/" + b.id + ")**]**").join("\n")}`, true)
+    .addField("Bots [" + bots.length + "]", `${!bots ? "" : bots.map(a => "<@" + a.botID + ">  **[**[View " + a.username + "](https://disbots.xyz/bot/" + a.botID + ")**]**").join("\n")}\n\n **Servers [${servers.length}]** \n${!servers ? "" : servers.map(b => b.name + " **[**[View " + b.name + "](https://mukhdha.dev/server/" + b.id + ")**]**").join("\n")}`, true)
   .setThumbnail(users.avatarURL({ dynamic: true }))
   message.channel.send(embed)
   }
@@ -35,7 +35,7 @@ module.exports.run = async (client, message, args) => {
     .setAuthor(users.tag, users.avatarURL({ dynamic: true }))
     .setDescription(`\n[Click to View your Profile!](https://mukhdha.dev/user/${users.id})\n\n**Analytics**\n You own **${bots.length || "0"} Bots** and **${servers.length} Servers**`)
     .setColor("#7289da")
-    .addField("Bots [" + bots.length + "]", `${!bots ? "" : bots.map(a => "<@" + a.botID + ">  **[**[View " + a.username + "](https://disbots.xyz/bot/" + a.botID + ")**]**").join("\n")}\n\n **Servers [${servers.length}]** \n${!servers ? "" : servers.map(b => b.name + " **[**[View " + b.name + "](https://disbots.xyz/server/" + b.id + ")**]**").join("\n")}`, true)
+    .addField("Bots [" + bots.length + "]", `${!bots ? "" : bots.map(a => "<@" + a.botID + ">  **[**[View " + a.username + "](https://mukhdha.dev/bot/" + a.botID + ")**]**").join("\n")}\n\n **Servers [${servers.length}]** \n${!servers ? "" : servers.map(b => b.name + " **[**[View " + b.name + "](https://mukhdha.dev/server/" + b.id + ")**]**").join("\n")}`, true)
     .setThumbnail(users.avatarURL({ dynamic: true }))
   message.channel.send(embed)
 }};
