@@ -36,8 +36,8 @@ app.post("/admin/addcode", global.checkAuth, async (req, res) => {
     }
     client.channels.cache.get(global.config.server.channels.codelog).send(new Discord.MessageEmbed()
         .setTitle("New code added!").setColor("GREEN").setFooter(config.footer)
-        .setDescription(`The user named **[${req.user.username}](https://disbots.xyz/user/${req.user.id})** added the code named **${rBody['codename']}** to the system.`)
-        .addField("Code Link", `https://disbots.xyz/code/${kod}`, true)
+        .setDescription(`The user named **[${req.user.username}](https://mukhdha.dev/user/${req.user.id})** added the code named **${rBody['codename']}** to the system.`)
+        .addField("Code Link", `https://Mukhdha.dev/code/${kod}`, true)
         .addField("Code Description", rBody['codedesc'], true)
         .addField("Code Category", rBody['category'], true)
     )
