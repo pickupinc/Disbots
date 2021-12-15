@@ -136,7 +136,7 @@ module.exports = {
     dblinvite: "",
     roles: {
       yonetici: "919184312472059915", // Team roleid
-      manager: "918742094791737353",// Community Manager Role Id
+      manager: "918742094791737353",// Community Manager Role Id of
       booster: "918749511608856606", // Server booster Role ID
       sponsor: "918742094791737348", // Sponsor Role id
       community: "918742094791737352", // Community Role id
@@ -180,13 +180,13 @@ module.exports = {
       }
     },
     channels: {
-      codelog: "918751377424007169", // Code Log
-      login: "918751841146261554",// Login Log
-      webstatus: "918752007496540191",// Website Status Log
-      uptimelog: "918752153772892170",// Uptime Log
-      botlog: "918742096364601419",// bot Log
-      reportlog: "919189336191279126",// bot report Log
-      votes: "918752199797002300"// Vote Log Log
+      codelog: "920727718511931403", // Code Log
+      login: "920727861474787428",// Login Log
+      webstatus: "920727994903982140",// Website Status Log
+      uptimelog: "920728109853065316",// Uptime Log
+      botlog: "920728207471304755",// bot Log
+      reportlog: "920728294813474816",// bot report Log
+      votes: "920728382281502780"// Vote Log Log
     }
   }
 
