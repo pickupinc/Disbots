@@ -171,10 +171,10 @@ module.exports = async (client) => {
     res.send(`Sitemap: https://disbots.xyz/sitemap.xml`);
   });
   app.get("/sitemap.xml", async function(req, res) {
-    let link = "<url><loc>https://disbots.xyz/</loc></url>";
+    let link = "<url><loc>https://mukhdha.dev/</loc></url>";
     let botdataforxml = await botsdata.find()
     botdataforxml.forEach(bot => {
-      link += "\n<url><loc>https://disbots.xyz/bot/" + bot.botID + "</loc></url>";
+      link += "\n<url><loc>https://mukhdha.dev/bot/" + bot.botID + "</loc></url>";
     })
     res.set('Content-Type', 'text/xml');
     res.send(`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="https://www.google.com/schemas/sitemap-image/1.1">${link}</urlset>`);
@@ -206,12 +206,12 @@ module.exports = async (client) => {
         dynamic: true
       })).setThumbnail(a.avatarURL({
         dynamic: true
-      })).setColor("RED").setDescription(`[**${a.username}**#${a.discriminator}](https://disbots.xyz/user/${a.id}) The user named **site** tried to log in but could not log in because he was blocked from the site.`).addField("Username", a.username).addField("User ID", a.id).addField("User Discriminator", a.discriminator))
+      })).setColor("RED").setDescription(`[**${a.username}**#${a.discriminator}](https://mukhdha.dev/user/${a.id}) The user named **site** tried to log in but could not log in because he was blocked from the site.`).addField("Username", a.username).addField("User ID", a.id).addField("User Discriminator", a.discriminator))
     })
     req.session.destroy(() => {
       res.json({
         login: false,
-        message: "You have been blocked from disbots.",
+        message: "You have been blocked from mukhdha.",
         logout: true
       })
       req.logout();
@@ -236,7 +236,7 @@ module.exports = async (client) => {
         dynamic: true
       })).setThumbnail(a.avatarURL({
         dynamic: true
-      })).setColor("GREEN").setDescription(`[**${a.username}**#${a.discriminator}](https://disbots.xyz/user/${a.id}) User named **site** logged in.`).addField("Username", a.username).addField("User ID", a.id).addField("User Discriminator", a.discriminator))
+      })).setColor("GREEN").setDescription(`[**${a.username}**#${a.discriminator}](https://mukhdha.dev/user/${a.id}) User named **site** logged in.`).addField("Username", a.username).addField("User ID", a.id).addField("User Discriminator", a.discriminator))
 
     })
   }
@@ -773,9 +773,9 @@ console.clear();
 */
 console.log(`
       [===========================================]
-                       disbots.xyz
-        https://github.com/disbots-xyz/benedict
-                Developed by Claudette
+                       mukhdha.dev
+        mukhdha.dev
+                Developed by Araan
 
                     Achievements =)
       [===========================================]
