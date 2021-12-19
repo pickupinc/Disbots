@@ -11,7 +11,7 @@ module.exports = {
   },
 
   website: {
-    callback: "",
+    callback: "https://mukhdha.dev/callback",
     secret: "r_DK-p8n_8JhigNG8_uxWr5hjuzLSHyP",
     clientID: "918819837705347072", // Bot client id.
     tags: ["Moderation", "Fun", "Minecraft", "Economy", "Guard", "NSFW", "Anime", "Invite", "Music", "Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"],
