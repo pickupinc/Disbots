@@ -168,12 +168,12 @@ module.exports = {
       },
       botlist: {
         ownerserver: "918742094808510496", // Server Owner Role ID
-        developer: "919187430039498793", // Bot Developer Role ID
-        certified_developer: "919187547526164481",// Certified Bot Developer Role ID
-        boosted_developer: "919187539955421215", // Boosted Bot Developer Role ID
-        promoted_developer: "919187850564632607",// Promoted Bot Developer Role ID
-        premium_developer: "919187979652714536",// Premium Server Owner Role ID
-        bot: "914439440208904212",// Approved Bot Role ID
+        developer: "918742094791737351", // Bot Developer Role ID
+        certified_developer: "922133798139875328",// Certified Bot Developer Role ID
+        boosted_developer: "922134059365318696", // Boosted Bot Developer Role ID
+        promoted_developer: "922134258657689681",// Promoted Bot Developer Role ID
+        premium_developer: "922134479760416778",// Premium Server Owner Role ID
+        bot: "918742094762356757",// Approved Bot Role ID
         boosted_bot: "919186541698515005", // Boosted Bot Role ID
         promoted_bot: "919186709198012457",// Promoted Bot Role ID
         certified_bot: "919186853645664308"// Certified Bot Role ID
