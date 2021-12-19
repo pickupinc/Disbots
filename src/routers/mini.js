@@ -27,7 +27,7 @@ app.get("/bot-rules", async (req,res) => {
     })
 })
 
-app.get("/dc", async (req,res) => {
+app.get("https://dsc.gg/mukhdha", async (req,res) => {
     res.redirect(global.config.server.invite)
 })
 app.get("/vanity/:username", async (req,res) => {
