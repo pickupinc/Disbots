@@ -174,9 +174,9 @@ module.exports = {
         promoted_developer: "922134258657689681",// Promoted Bot Developer Role ID
         premium_developer: "922134479760416778",// Premium Server Owner Role ID
         bot: "918742094762356757",// Approved Bot Role ID
-        boosted_bot: "919186541698515005", // Boosted Bot Role ID
-        promoted_bot: "919186709198012457",// Promoted Bot Role ID
-        certified_bot: "919186853645664308"// Certified Bot Role ID
+        boosted_bot: "922134882157727785", // Boosted Bot Role ID
+        promoted_bot: "922135038802399242",// Promoted Bot Role ID
+        certified_bot: "922135532027387914"// Certified Bot Role ID
       }
     },
     channels: {
