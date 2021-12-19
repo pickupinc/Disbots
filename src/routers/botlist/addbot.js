@@ -70,7 +70,7 @@ console.log("[disbots.xyz]: Botlist/Add Bot router loaded.");
       })
       res.redirect(`?success=true&message=Your bot has been successfully added to the system.&botID=${rBody['botID']}`)
       client.users.fetch(rBody['botID']).then(a => {
-      client.channels.cache.get(channels.botlog).send(`<:add:853596640824655872> <@${req.user.id}> added **${a.tag}** \n **https://mukhdha.dev/bot/${a.id}/**`)
+      client.channels.cache.get(channels.botlog).send(`<:add:853596640824655872> <@${req.user.id}> added **${a.tag}** https://discord.com/api/oauth2/authorize?client_id=<%= b.botID %>&permissions=0&scope=bot \n **https://mukhdha.dev/bot/${a.id}/**`)
       })
     })
 
