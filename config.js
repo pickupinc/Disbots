@@ -2,7 +2,7 @@ module.exports = {
   bot: {
     token: "",
     prefix: "!",
-    owners: ["875768640320962650"],
+    owners: ["875768640320962650,677970752242450463"],
     mongourl: "mongodb+srv://dbl:dbl@cluster0.lt2km.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
     servers: {
       token: "",
@@ -132,23 +132,23 @@ module.exports = {
 
   server: {
     id: "918742094762356756", // DisBots.xyz Server ID
-    invite: "https://discord.gg/",
-    dblinvite: "",
+    invite: "https://dsc.gg/mukhdha",
+    dblinvite: "https://discord.gg/mukhdha",
     roles: {
       yonetici: "919184312472059915", // Team roleid
       manager: "918742094791737353",// Community Manager Role Id of
-      booster: "918749511608856606", // Server booster Role ID
+      booster: "920406820940562433", // Server booster Role ID
       sponsor: "918742094791737348", // Sponsor Role id
       community: "918742094791737352", // Community Role id
       supporter: "918742094791737346",// Supporter Role id
       partnerRole: "918742094791737349", // Partner Role id
-      site_creator: "919188947333181510",// Site Creator Role id
+      site_creator: "922107459047391252",// Site Creator Role id
       administrator: "919184312472059915", // Team Role id Again
-      moderator: "918742094791737353", // bot tester Role id
-      moderatorrole: "918742094791737350", // Server Moderator Role id
+      moderator: "922107771128782858", // bot tester Role id
+      moderatorrole: "922108021209976862", // Server Moderator Role id
       profile: {
-        sitecreator:"919188947333181510", // Site Creator Role id
-        booster: "918749511608856606",// Server booster Role ID
+        sitecreator:"922107459047391252", // Site Creator Role id
+        booster: "920406820940562433",// Server booster Role ID
         community: "918742094791737352",// Community Role id
         sponsor: "918742094791737348", // Sponsor Role id
         supporter: "918742094791737346", // Supporter Role id
